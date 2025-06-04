@@ -1,0 +1,63 @@
+body {
+    margin-top: 20px;
+    background-color: darkslateblue;
+    width: 575px;
+    height: 185px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    font-size: 40px;
+    color: greenyellow;
+    margin-bottom: -50px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 410px;
+    height: 248px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.extras {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 15px;
+}
+
+
+#home, #guest {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    height: 100px;
+    width: 155px;
+    border: solid greenyellow 2px;
+    background-color: black;
+    text-align: center;
+    border-radius: 0px;
+    color: red;
+    font-size: 90px;  
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+button {
+    background-color: darkslateblue;
+    color: greenyellow;
+    border: solid greenyellow 1px;
+    width: 45px;
+    height: 45px;
+    border-radius: 0;
+}
+
+#home-btn1, #home-btn2, #home-btn3, #guest-btn1, #guest-btn2, #guest-btn3 {
+    margin-right: 6px;
+}
+
+#clear-btn {
+    width: 180px;
+    height: 45px;
+}
